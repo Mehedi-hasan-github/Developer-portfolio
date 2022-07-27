@@ -1,0 +1,87 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.heading{
+    display: block;
+}
+.heading-color{
+    color: #f3764d;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.partOne{
+    background-image: url(./developer-portfolio/images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 55%;
+    text-align: left;
+    margin-left: 30px;
+}
+.seeMoreBtn{
+    font-size: 18px;
+    border: none;
+    width:fit-content;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color:deeppink;
+}
+
+.partTwo{
+    text-align: center;
+    width: 45%;
+    margin-top: 20px;
+}
+
+
+
+
+.sectionTwo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(./developer-portfolio/images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   margin-top: 100px;
+}
+.headingTwo{
+    color:#e9967a ;
+}
+
+
+.sectionThree{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+ 
+}
+.sectionThree div{
+    width: 38%;
+    border-left: 8px solid;
+    border-image:linear-gradient(to bottom,red,rgba(228, 8, 235, 0.954)) 1 100%;
+    box-shadow: 0px 0px 20px rgb(107, 107, 107);
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.sectionThree div h2{
+    font-size: 35px;
+}
+
+
